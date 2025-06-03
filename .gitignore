@@ -1,0 +1,32 @@
+# IDE и редактори
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Конфигурационни файлове
+includes/config.php
+
+# Качени файлове
+uploads/*
+!uploads/.htaccess
+!uploads/avatars/default.png
+
+# Кеш файлове
+*.log
+.DS_Store
+Thumbs.db
+
+# Зависимости
+vendor/
+node_modules/
+
+# Временни файлове
+*.tmp
+*.temp
+*.swp
+~*
+
+# Бази данни
+*.sql
+*.sqlite 

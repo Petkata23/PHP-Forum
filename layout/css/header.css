@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.search-form input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.search-form button {
+    padding: 5px 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #003d82;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0056b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-info span {
+    color: white;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-form {
+        width: 100%;
+    }
+    .user-info {
+        width: 100%;
+        justify-content: center;
+    }
+} 

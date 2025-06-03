@@ -1,0 +1,28 @@
+body {
+    background-color: #4E4E4E;
+    text-align: center;
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+#content {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 20px 30px;
+    text-align: left;
+}
+#menu {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    padding: 3px;
+}
+.item {
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px;
+}
+.item:hover {
+    background-color: #009FC1;
+}
