@@ -42,7 +42,7 @@ forum/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Petkata23/forum.git
+git clone https://github.com/Petkata23/PHP-Forum.git
 ```
 
 2. Create MySQL database and import structure:
